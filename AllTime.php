@@ -1,7 +1,7 @@
 <?php
-namespace alltime;
+namespace jayeshchavda\alltime;
 /**
- * Description: This is a library which fetched current timezones as per request from WorldTimeApi.
+ * Description: This is a library which fetches current time as per request from WorldTimeApi.
  * Author: Jayesh Chavda
  * Date: 11-07-2020
  */
