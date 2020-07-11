@@ -1,0 +1,13 @@
+{
+    "name": "jc/alltime",
+    "description": "This is a library which fetches current time as per request from WorldTimeApi.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jayesh Chavda",
+            "email": "jayeshchavada95@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
