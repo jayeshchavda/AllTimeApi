@@ -1,5 +1,5 @@
 {
-    "name": "jc/alltime",
+    "name": "jayeshchavda/alltime",
     "description": "This is a library which fetches current time as per request from WorldTimeApi.",
     "type": "library",
     "authors": [
