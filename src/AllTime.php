@@ -10,7 +10,7 @@ class AllTime
 
     public function getTimeZoneList() {
         $allTimeZones = file_get_contents("http://worldtimeapi.org/api/timezone/");
-        return json_decode( $allTimeZones );exit;
+
         if( is_array( json_decode( $allTimeZones ) ) ) {
             header("HTTP/1.1 200 OK");
             return $allTimeZones;
@@ -33,5 +33,4 @@ class AllTime
 
         return json_encode( ['error' => 'No Time Zone found'] );
     }
-
 }
