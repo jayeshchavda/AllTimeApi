@@ -9,5 +9,8 @@
         }
     ],
     "minimum-stability": "beta",
+    "autoload": {
+        "psr-4": {"jayeshchavda\\alltime\\": "src/"}
+    },
     "require": {}
 }
